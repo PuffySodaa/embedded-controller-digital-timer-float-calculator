@@ -65,12 +65,19 @@ Mode switching is handled via hardware pins (or dedicated keys depending on wiri
 Mode 0 (Timer): Enter HH:MM:SS -> Press # to Start. Relay activates.
 Mode 1 (Calculator): Enter numbers -> Press A/B/C/D for operations -> Press # for Result.
 
-### Keypad Mapping
-Key,Function,Key,Function
-0-9,Number Entry,#,Enter / Equal (=)
-A,Divide (/),B,Multiply (*)
-C,Subtract (-),D,Add (+)
-*****,Clear (AC),,
+### 🎹 Keypad Mapping
+
+The system uses a standard 4x4 matrix keypad. The function of each key changes slightly depending on the active mode (Calculator or Timer).
+
+| Key Label | Calculator Mode Function | Timer Mode Function |
+| :---: | :--- | :--- |
+| **0 - 9** | Enter numbers (0-9) | Enter time (HH:MM:SS) |
+| **A** | Divide ( `÷` ) | *(No function)* |
+| **B** | Multiply ( `×` ) | *(No function)* |
+| **C** | Subtract ( `-` ) | *(No function)* |
+| **D** | Add ( `+` ) | *(No function)* |
+| **\*** | **AC** (Clear All / Reset) | **Reset** Countdown to 00:00:00 |
+| **#** | **=** (Calculate Result) | **Start / Pause** Countdown |
 
 ---
 
