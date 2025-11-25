@@ -38,9 +38,9 @@ The system is built around the AVR architecture, interfacing with power electron
 | **MCU** | **ATmega16** (DIP-40) | Central Processing Unit |
 | **Display** | 2x 4-Digit 7-Segment Anode Common | Multiplexed Visual Output |
 | **Drivers** | 8x BJT Transistors | Anode/Cathode switching for Multiplexing |
-| **Switching** | **12V Relay ** | Controls external High-Power Load |
+| **Switching** | 12VDC Relay  | Controls external High-Power Load |
 | **Input** | 4x4 Matrix Keypad | User Data Entry |
-| **Power** | 12V Input $\to$ 5V LDO | Power Management (LM7805) |
+| **Power** | 12V Input $\to$ 5V LDO | Power Management |
 | **PCB** | Custom Design | Optimized footprint and signal routing |
 
 ---
