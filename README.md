@@ -1,4 +1,4 @@
-# embedded-controller-digital-timer-float-calculator
+# ATmega16 Dual-Mode Embedded Controller: Timer & Float Calculator
 
 ## 📖 Project Overview
 
