@@ -68,7 +68,7 @@ Implemented custom logic to split `float` data types into **Integer** and **Deci
 ├── firmware/
 │   ├── timer_calc_2modes_FLOAT_ver2.cpp  # Main Source Code (C++)
 ├── hardware/
-│   ├── schematic.pdf                     # Circuit Diagram (Proteus)
-│   ├── pcb_layout.png                    # PCB Board View
-│   └── simulation_proteus.pdsprj         # Proteus Simulation File
+│   ├── e18a3990ecac60f239bd.jpg          # Circuit Diagram (Proteus)
+│   ├── b4f9dd4d4c73c02d9962.jpg          # PCB Board View
+│   └── test.pdsprj                       # Proteus Simulation File
 └── README.md                             # Project Documentation
